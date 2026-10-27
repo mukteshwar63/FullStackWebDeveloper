@@ -1,0 +1,31 @@
+body{
+    background-color: wheat;
+}
+p{
+    color:brown;
+}
+
+h3{
+    color: black;
+    text-align: center;
+}
+p{
+    color: black;
+    line-height: 30px;
+    text-align: center;
+}
+a{
+    color: rgb(36, 36, 233);
+    text-decoration: none;
+}
+textarea{
+    color: #ff1313;
+}
+h1{
+    text-decoration: underline;
+    font-family: Georgia;
+    text-align: center;
+}
+span{
+    text-decoration: underline;
+}

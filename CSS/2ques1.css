@@ -1,0 +1,12 @@
+h2{
+    color: orange;
+}
+p{
+    color: rgb(255, 240, 240);
+    background-color: rgb(30, 29, 29);
+}
+button{
+    background-color: blue;
+    color: white;
+    font-size: 120 px;
+}

@@ -1,0 +1,21 @@
+h1{
+    text-align:justify ;
+    border: solid;
+    width: 100%;
+    font-weight: 200%;
+    /* text-decoration:red dashed line-through; */
+
+    font-family: avant garde, didot, sans-serif;
+}
+p{
+    text-align: justify;
+    border: solid;
+    font-weight: lighter;
+    line-height: 1.3;  
+    /* letter-spacing: 10px; */
+
+    /* font-size: 20px; */
+    font-family: sans-serif;
+}
+
+/* Font Size-> 1 inch =  96 px(pixels) */

@@ -1,0 +1,74 @@
+.A{
+    background-color: rgb(9, 9, 116);
+    border: 2px solid black;
+    height: auto;
+    border-radius: 20px ;
+    padding: 11;
+}
+#a img{
+    height: 60px;
+    border-radius: 11px;
+    border-color: yellow;
+}
+
+#b{
+    color: white;
+}
+#first{
+    display: inline-block;
+    color: green;
+    border: 2px solid green;
+    background-color: rgb(187, 238, 191);
+    border-radius: 5px;
+}
+#second{
+    display: inline-block;
+    border: 2px solid rgb(163, 199, 163);
+    background-color: rgb(117, 129, 139);
+}
+#third{
+    display: inline-block;
+    color: darkorange;
+    border: 2px solid rgb(165, 167, 33);
+    background-color: rgb(218, 198, 162);
+}
+
+
+/* .batch{
+        background-color: rgb(112, 112, 114);
+        display: inline-block;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .batch .tag{
+        color: blue;
+    }
+
+    .batch .name{
+        color:white;
+    } */
+
+
+.fdiv{
+    padding: 3px;
+    color: rgb(17, 143, 197);
+    border: 2px solid rgb(9, 179, 213);
+    display: inline-block;
+    background-color: rgb(22, 51, 215);
+    border-radius: 50px;
+    margin: 3px 0 3px 3px;
+
+}
+.box{
+    color: white;
+}
+
+.B{
+    margin-top: 10px;
+    background-color: blueviolet;
+    border: 2px solid blue;
+    border-radius: 21px;
+    height: 300px;
+    
+}

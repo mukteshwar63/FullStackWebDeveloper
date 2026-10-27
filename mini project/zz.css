@@ -1,0 +1,21 @@
+.a{
+    border: 2px solid black;
+    height: 100px;
+    width: 50px;
+    margin-top: 2px;
+    color: blue;
+    background-color: blue;
+    display: inline-block;
+}
+.b{
+     border: 2px solid black;
+    height: 100px;
+    width: 50px;
+    
+    color: blue;
+    background-color: blue;
+    
+}
+#b{
+   height: 500px;
+}

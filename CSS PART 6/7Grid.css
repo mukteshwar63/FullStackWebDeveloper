@@ -1,0 +1,11 @@
+.container{
+    background-color: pink;
+    border: 4px solid white;
+    height: 30px;
+    display: grid;
+}
+.two{
+    height: 500px;
+    width: 160px; 
+     
+}

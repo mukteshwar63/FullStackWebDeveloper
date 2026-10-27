@@ -1,0 +1,30 @@
+/* #outer{
+    height:400px;
+    width: 400px;
+    border: 2px solid pink;
+    background-color: red;
+    font-size: 30px;
+}
+#inner{
+    height: 100px;
+    width: 100px;
+   
+    background-color: yellow;
+    font-size: 1.7em;
+    padding: 2em;
+}
+button{
+    font-size: 50px;
+    border-radius: 15px;
+    border: 5px solid pink;
+    padding-left: 1em;
+    padding-right: 1em;
+} */
+
+    /* Rem(Root Em) */
+    section{
+        font-size: 15px;
+    }
+    div {
+        font-size: 0.5rem;
+    }

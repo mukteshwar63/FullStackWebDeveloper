@@ -1,0 +1,98 @@
+        /* !important in CSS */
+h2{
+    background-color: rgb(100, 92, 81) !important;
+}        
+         /* Universal Selector */
+*{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: antiquewhite;
+}
+
+            /* Element Selector */
+button{
+    color: blue;
+}
+            /* ID Selector - "#id" */
+#login{
+    color: red;
+    background-color: aliceblue;
+ }
+            /* Class Selector-> ".className" */
+.a{
+    background-color: orange;
+    color: red;
+
+}          
+
+            /* Descendant Selector-> div p */
+p a{
+    color: rgb(186, 226, 43);
+    background-color: red;
+}        
+nav ul li a{
+    color: rgb(37, 34, 34);
+}   
+
+            /* Sibling Adjacent Selector-> "p+h3" */
+p+h2{
+    text-decoration: underline;
+}
+.upvote+button{
+    background-color: aliceblue;
+}
+
+        /* Child Combinator-> span>button */
+body > h2{
+    color: aqua;
+}
+
+        /* Attribute Selector-> input[attr="value"] */
+input[type="text"]
+{
+    color: rgb(39, 215, 98);
+}
+input[type="password"]
+{
+    color: blueviolet;
+}
+
+        /* Pseudo Class-> element : pseudoclass 
+                :hover      :checked(radio,chekbox)
+                :active     :nth-of-type
+        */
+button:hover {
+    color: rgb(250, 247, 247);
+    background-color: rgb(24, 25, 26);
+}       
+h2:hover{
+    text-decoration: none;
+}
+button:active{
+     background-color: pink;
+}
+p:active{
+    color: rgb(134, 16, 244);
+}
+input[type="radio"]:checked +label{
+    color: blue;
+    font-weight: bold;
+}
+
+div:nth-of-type(2n){
+    background-color: rgb(238, 241, 8);
+}
+
+        /* Pseudo Elements-> ::first-letter
+                          ::first-line
+                          ::selection */
+button::first-letter{
+    background-color: green;
+} 
+p::first-line{
+    color: blue;
+}                                            
+
+        /*Cascading and Selector Specificity :-
+         id > class(,attribute & pseudo-class) > element(,pseudo-element)
+         if specificity same -> we apply cascading
+         -> Inline Specificity :-( inline style > id > class > element > )  */

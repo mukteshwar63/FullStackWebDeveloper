@@ -1,0 +1,14 @@
+div{
+    width: 600px;
+    height: 300px;
+    background-color: blue;
+    margin: 10px auto;
+    background-image: url(eimage.jpg);
+    background-size: contain;
+    color: aliceblue;
+    text-align: center;
+}
+
+/* background-image: url("../somepath/..img.jpg");
+background-size: contain/cover/auto;
+                 repeat|scale|stretch */

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice question 8</title>
+</head>
+<body>
+    <form action="https://www.google.com/search">
+        <input type="text" placeholder="search in google" name="q">
+        <button>search</button>
+    </form><hr>
+
+
+            <!-- Checkbox -->
+    <form action="/server">
+        <input type="checkbox" name="age" id="age" checked">
+        <label for="age">I am 21</label>
+        
+
+
+            <!-- Radio Button -->
+             <div>
+
+        <input type="radio" name="fruit" id="apple" value="apple">
+          <label for="apple">Apple</label>
+         <input type="radio" name="fruit" id="banana" value="apple">
+          <label for="apple">Banana</label>  
+         <input type="radio" name="fruit" id="orange" value="orange">
+          <label for="orange">orange</label>  
+      
+            </div>
+
+            <div>
+
+                    <!-- Dropdown->(Selcet)+(Area) -->
+
+                Choose your profession
+                <select name="profession" id="profession">
+                    <option value="stu">Student</option>
+                    <option value="tea" selected>Teacher</option>
+                    <option value="Class">Class</option>
+                </select>
+            </div>
+                        <!-- Range -->
+            <label for="marks">Select your marks:</label>
+            <input type="range" min="0" step="7" max="108" name="marks" id="marks" value="51">
+<br>
+                        <!-- Text area -->
+            <label for="feedback">Please provide your valuable feedback:</label>
+            <textarea id="feedback" name="feedback"  placeholder="write your feedback"></textarea>
+ <button>submit</button>  
+     </form>
+</body>
+</html>

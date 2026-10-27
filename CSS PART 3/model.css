@@ -1,0 +1,50 @@
+/* Box-Models -> */
+    /* Height : div{
+        height: 100px;
+    } */
+
+div{
+    height: 200px;
+    width:300px;
+    background-color: pink;
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: rgb(25, 26, 27); */
+
+    border: 5px solid yellow;
+
+    border-left-color: rgb(12, 227, 187);
+   border-left-style: double;
+
+   border-top-right-radius: 11%;
+   
+   padding: 20px;
+
+   /* margin-bottom: 25px;
+   margin-left: 21px; */
+   margin: 20px 30px 40px 50px;
+}
+h1{
+    /* border-width: 2px;
+    border-style: dotted;
+   border-color: blue; */
+   border: 2px dashed red;
+   
+}
+button{
+    border: 2px solid orangered;
+    border-radius: 7px;
+    /* padding-left: 25px;
+    padding-right:25px; */
+    /* padding: 25px; */
+    padding: 10px 10px 21px 13px;
+    background-color: yellow;
+}
+
+/* Border : border-width , border-style , border-color
+<>Border Shorthand : width|style|color ->
+ div{       border: 2px solid blue;     }
+ <>Border Sides : border-left,right,top,bottom;
+ <>Border Radius    <>Padding-left,right,top,bottom;
+ <>Margin-left,right,top,bottom;
+ */

@@ -1,0 +1,21 @@
+#a{
+    height: 1200px;
+    width: 900px;
+    background-color: rgb(219, 227, 235);
+    border: 5px solid rgb(222, 201, 201);
+    justify-content: space-evenly;
+    
+}
+.a{
+    height: 100px;
+    width: 500px;
+    border: 2px solid 
+
+}
+#one{
+    height: 30px;
+    width: 100px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+}
